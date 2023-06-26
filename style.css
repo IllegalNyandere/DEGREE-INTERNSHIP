@@ -1,0 +1,368 @@
+.form-submit-button {
+  background: #2c99f5;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  width: 50%;
+  height: 30px;
+}
+
+.form-submit-button:hover {
+  background: #016ABC;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #a5869e;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.box{
+  height: 50%;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: grey;
+}
+
+.lsc-section {
+  background-color: #f7f7f7;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lsc-section-title {
+  font-size: 24px;
+  margin-left: 2%;
+}
+
+.lsc-section-content {
+  font-size: 16px;
+}
+
+.special{
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+}
+
+.special th, .special td {
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.special th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ddd;
+}
+
+.special tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.special tr:hover {
+  background-color: #f5f5f5;
+}
+
+.blue {
+  color: blueviolet;
+}
+
+hr {
+    align-self: center;
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.api-header {
+    display: flex;
+    align-items: center;
+}
+
+.image-resize {
+  width: 4%;
+  height: auto;
+  float: left;
+  margin-top: -2px;
+}
+
+/* Adjust the size of the custom menu icon */
+#toplevel_page_umrahpass .wp-menu-image img {
+    width: 24px !important;; /* Set the desired width */
+    height: 24px !important;; /* Set the desired height */
+    filter: brightness(100%); /* Adjust brightness as needed */
+    opacity: 1; /* Set opacity to 1 to remove any transparency */
+    margin-top: -3px;
+}
+
+.sized{
+  margin-top: 5px;
+}
+
+.copy-container {
+  display: flex;
+  position:relative;
+  padding:1px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.copy-container input#myInput.copy-input {
+  padding: 10px;
+  font-size: 18px;
+  color: #555;
+  border:none;
+  outline: none;
+}
+
+.copy-container input#myInput.copy-input:read-only {
+  background-color: #FFFFFF; /* Replace with your desired background color */
+}
+
+.copy-container button {
+  padding: 10px;
+  background: #5784f5;
+  color:#fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copy-container button:active {
+  background:#809ce2;
+}
+
+.copy-container button:before {
+  content: "Copied";
+  position: absolute;
+  top: -50px;
+  right:0px;
+  background: #5c81dc;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  display: none;
+}
+
+.copy-container button:after{
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #5c81dc;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.copy-container button:before, .copy-container button:after{
+  display: block;
+}
+
+/*
+Test 
+*/
+
+.copy-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  padding:1px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.copy-text input#myInput.text{
+  padding: 1px;
+  font-size: 18px;
+  color: #555;
+  border:none;
+  outline: none;
+}
+
+.copy-text button {
+  padding: 7px;
+  background: #5784f5;
+  color:#fff;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copy-text button:active {
+  background:#809ce2;
+}
+
+.copy-text button:before {
+  content: "Copied";
+  position: absolute;
+  top: -50px;
+  right:0px;
+  background: #5c81dc;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  display: none;
+}
+
+.copy-text button:after{
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #5c81dc;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.copy-text.active button:before, .copy-text.active button:after{
+  display: block;
+}
+
+
+/*
+Test 
+*/
+.copy-link {
+  --height: 36px;
+
+  display: flex;
+  max-width: 300px;
+  position: relative;
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.copy-link-input {
+  flex-grow: 1;
+  padding: 0 8px;
+  border: none;
+  border-right: none;
+  max-width: 250px;
+  color: #555;
+  outline: none !important;
+  font-weight: bold;
+  font-size: 1.3em;
+  pointer-events: none;
+}
+
+.copy-link .copy-link-input {
+  border: none;
+  /* other styles */
+}
+
+.copy-link-input:read-only {
+  background-color: #FFFFFF; /* Replace with your desired background color */
+}
+
+.copy-link-input:hover {
+  background: #FFFFFF;
+}
+
+.copy-link-input:focus {
+  outline: none !important;
+  /* other styles */
+}
+
+.copy-link-button {
+  padding: 7px;
+    background: #5784f5;
+    color: #fff;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.copy-link-button:hover {
+  background: #cccccc;
+}
+
+.icony {
+  margin-top: 17px;
+}
+
+.icony-text{
+  display:inline-block;
+  margin-left: 10px;
+}
+
+.icony-desc{
+  margin-left: 33px;
+}
